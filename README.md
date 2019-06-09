@@ -14,6 +14,7 @@ git merge better_branch             # fast-forward master up to the merge
 ```
 $ git push --delete <remote_name> <branch_name>
 ```
+info: *remote_name* in most cases is *origin*
 
 **3. Delete a local branch**
 ```

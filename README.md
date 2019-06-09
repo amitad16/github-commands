@@ -21,9 +21,17 @@ info: *remote_name* in most cases is *origin*
 $ git branch -d <branch_name>
 ```
 
-**4. Merge branch b into a**
+**4. Merge branch *b* into *a***
 ```
 git checkout a (you will switch to branch a)
 git merge b (this will merge all changes from branch b into branch a)
 git commit -a (this will commit your changes)
 ```
+
+**5. List all branches**
+`git branch`
+or
+`git branch -b`
+
+**6. Switch to branch b**
+`git checkout b`

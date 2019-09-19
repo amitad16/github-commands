@@ -35,3 +35,35 @@ or
 
 **6. Switch to branch b**
 `git checkout b`
+
+
+
+
+
+
+
+
+
+# MONGODB COMMANDS
+
+**1. Remove a member from replica set**
+
+https://docs.mongodb.com/manual/tutorial/remove-replica-set-member/
+
+*Run in 1st terminal*
+```
+mongod --port <PORT> --dbpath /data/<DB_PATH> --replSet <REPLICASET_NAME>
+```
+
+*Run in 2nd terminal*
+```
+mongo --port <PORT>
+```
+
+*Inside Mongo REPL*
+```
+cfg = rs.conf()
+cfg.members.splice(2,1)
+rs.reconfig(cfg)
+```
+

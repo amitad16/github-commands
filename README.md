@@ -67,3 +67,16 @@ cfg.members.splice(2,1)
 rs.reconfig(cfg)
 ```
 
+
+# UBUNTU COMMANDS
+
+**1. Get all Ubuntu Processes**
+```
+sudo netstat -lnp
+```
+
+**2. Kill a Ubuntu Process**
+https://www.cyberciti.biz/faq/stop-process-ubuntu-linux-command/
+```
+kill -s 15 PID
+```

@@ -80,3 +80,9 @@ https://www.cyberciti.biz/faq/stop-process-ubuntu-linux-command/
 ```
 kill -s 15 PID
 ```
+
+OR
+https://stackoverflow.com/questions/9346211/how-to-kill-a-process-on-a-port-on-ubuntu
+```
+sudo kill -9 `sudo lsof -t -i:9001`
+```

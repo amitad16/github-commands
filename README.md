@@ -86,3 +86,11 @@ https://stackoverflow.com/questions/9346211/how-to-kill-a-process-on-a-port-on-u
 ```
 sudo kill -9 `sudo lsof -t -i:9001`
 ```
+
+
+# USEFUL APPLICATIONS
+
+**1. localtunnel**
+Used for serving localhost running application in www
+
+`lt -h "http://serverless.social" -p PORT ---subdomain SUBDOMAIN`

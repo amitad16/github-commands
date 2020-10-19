@@ -94,3 +94,15 @@ sudo kill -9 `sudo lsof -t -i:9001`
 Used for serving localhost running application in www
 
 `lt -h "http://serverless.social" -p PORT ---subdomain SUBDOMAIN`
+
+# OTHER COMMANDS
+
+### SSH
+
+**1. Add ssh identity to terminal**
+
+```
+eval `ssh-agent` -s
+```
+
+`ssh-add <path to ssh private key>`

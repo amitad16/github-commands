@@ -99,7 +99,13 @@ Used for serving localhost running application in www
 
 ### SSH
 
-**1. Add ssh identity to terminal**
+**1. Test SSH connection to github**
+```
+ssh -T git@github.com
+```
+
+
+**2. Add ssh identity to terminal**
 
 ```
 eval "$(ssh-agent -s)"
